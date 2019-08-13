@@ -71,7 +71,7 @@ class AlipayController extends Controller
 //        echo $str3;die;
         //请求地址
         $url = 'https://openapi.alipaydev.com/gateway.do'.$str3;
-//        echo $url;die;
+//        echo $url;die;sdsd
         header('refresh:2;url='.$url);
     }
 }
